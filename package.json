@@ -1,0 +1,26 @@
+{
+  "name": "tibu-cool-dark",
+  "displayName": "tibu-cool-dark",
+  "description": "Tibu Cool Dark Theme",
+  "version": "0.0.1",
+  "publisher": "TibuDev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TibuuDev/Tibu-Cool-Dark-Theme"
+  },
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tibu Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tibu Dark Theme-color-theme.json"
+      }
+    ]
+  }
+}
